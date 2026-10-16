@@ -1,0 +1,119 @@
+
+.app {
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  color: #263a5b;
+  text-align: center;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.student-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.student-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.student-form input:focus {
+  outline: 2px solid #6b8fd6;
+  border-color: #6b8fd6;
+}
+
+.student-form button {
+  margin-top: 10px;
+  padding: 13px;
+  background: #365da8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background: #274780;
+}
+
+.result-card {
+  margin-top: 25px;
+  padding: 20px;
+  background: #f4f7fc;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.result-card h2 {
+  color: #263a5b;
+  margin-top: 0;
+}
+
+.empty-result {
+  text-align: center;
+  color: #666;
+}
+
+.score {
+  font-size: 32px;
+  font-weight: bold;
+  color: #365da8;
+  margin: 18px 0;
+}
+
+.score span {
+  font-size: 16px;
+  font-weight: normal;
+  color: #777;
+}
+
+.passed {
+  color: #218838;
+}
+
+.failed {
+  color: #d32f2f;
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 20px 12px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+}
